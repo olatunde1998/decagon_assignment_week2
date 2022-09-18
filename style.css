@@ -1,0 +1,103 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+}
+#nav-container{
+    background-color:  green;
+    color: white;
+    padding: 50px;
+    font-size: 24px;
+    width: 100%;
+}
+#content-container{
+    padding: 100px 150px 0px 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+.content-box{
+    border: 2px solid rgb(206, 206, 204);
+    padding: 20px ;
+    padding-bottom: 50px;
+    
+    
+}
+.add-container{ 
+    margin-bottom: 20px;
+}
+.add-items,.items-headings{
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+.field-box{
+    /* border: 2px solid green; */
+    
+}
+#item-field{
+    height: 45px;
+    width: 250px;
+    font-size: 24px;
+    border: 2px solid rgb(206, 206, 204);
+}
+#sub-btn{
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(29, 29, 73);
+    color: white;
+}
+#items-container{
+    /* border: 2px solid red; */
+}
+.item{
+    border: 2px solid rgb(206, 206, 204);
+    padding: 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 760px){
+    #nav-container{
+        background-color:  green;
+        color: white;
+        padding: 30px 0px 30px 20px;
+        font-size: 24px;
+        width: 100%;
+    
+    }
+    #content-container{
+        padding: 25px 5px 0px 5px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+    }
+    .content-box{
+        border: 2px solid rgb(206, 206, 204);
+        padding: 15px ;    
+    }
+    #item-field{
+        height: 45px;
+        width: 180px;
+        font-size: 24px;
+        border: 2px solid rgb(206, 206, 204);
+    }
+    #sub-btn{
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 18px;
+        background-color: rgb(29, 29, 73);
+        color: white;
+    }
+    .add-items,.items-headings{
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+}
